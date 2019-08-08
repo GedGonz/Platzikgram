@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Platzikgram</string>
+    <string name="title_activity_referencia">MainActivityR</string>
+    <string name="dont_hav_account">Nothing to Account?,</string>
+    <string name="crate_here">Create hear</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="text_button_login">Login</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_Confirm_password">Confirmar Contraseña</string>
+    <string name="text_button_Createaccount">Únete</string>
+    <string name="toolbar_title_createaccount">Create Account</string>
+    <string name="username_card">Gerald González</string>
+    <string name="firstword_card">Hace</string>
+    <string name="likenumbercard_card">10 Me Gusta</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Profile</string>
+    <string name="timecard_card">4 days</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

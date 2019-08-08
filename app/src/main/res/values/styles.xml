@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+    
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/ediTextColorWhite</item>
+        <item name="android:textSize">@dimen/edittext_textsize_login</item>
+        <item name="android:textColorPrimary">@color/ediTextColorWhite</item>
+        <item name="colorAccent">@color/ediTextColorWhite</item>
+        <item name="colorControlNormal">@color/ediTextColorWhite</item>
+        <item name="colorControlActivated">@color/ediTextColorWhite</item>
+    </style>
+
+    <style name="EditTextBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/ediTextColorBlack</item>
+        <item name="android:textSize">@dimen/edittext_textsize_login</item>
+        <item name="android:textColorPrimary">@color/ediTextColorBlack</item>
+        <item name="colorAccent">@color/ediTextColorBlack</item>
+        <item name="colorControlNormal">@color/ediTextColorBlack</item>
+        <item name="colorControlActivated">@color/ediTextColorBlack</item>
+    </style>
+</resources>
+
+
+
+
+
