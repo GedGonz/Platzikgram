@@ -54,7 +54,7 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         return pictures.size();
     }
 
-    private class PictureViewHolder extends RecyclerView.ViewHolder
+    public class PictureViewHolder extends RecyclerView.ViewHolder
     {
 
         private ImageView pictureCard;
