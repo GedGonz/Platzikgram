@@ -20,6 +20,7 @@
             android:layout_height="@dimen/height_cardview"
             android:background="@drawable/office"
             android:scaleType="centerCrop"
+            android:transitionName="@string/transitionname_picture"
 
             />
         <LinearLayout
