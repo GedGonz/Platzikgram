@@ -22,4 +22,7 @@
     <string name="tab_search">Buscar</string>
     <string name="tab_home">Home</string>
     <string name="tab_profile">Yo</string>
+    <string name="secondword_detail">Me Gusta</string>
+    <string name="titleimage">\"Una Vista sin Palabras\"</string>
+    <string name="lorem">orem ipsum dolor sit amet consectetur adipiscing elit, dui malesuada aliquam pretium torquent a integer, penatibus per platea egestas sem venenatis. Felis varius quam massa risus purus enim mollis tellus id, morbi penatibus aliquet inceptos cubilia vitae scelerisque est pulvinar, orci primis luctus natoque cum per curae hendrerit. Congue euismod cursus imperdiet facilisi penatibus aliquet consequat, diam cum sociosqu vivamus magna habitant curae porttitor, massa natoque netus placerat sed dapibus</string>
 </resources>
