@@ -72,7 +72,7 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="@dimen/dimen_circleimageprofile"
         android:layout_height="@dimen/dimen_circleimageprofile"
-        android:src="@drawable/office"
+        android:src="@drawable/gedgonz"
         android:layout_gravity="center|top"
         android:layout_marginTop="@dimen/margintop_circleprofile"
         android:elevation="@dimen/elevation_circleimageprofile"
@@ -87,24 +87,6 @@
 
         />
 
-    <TextView
-        android:id="@+id/usernameToolbarProfile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/username_card"
-        android:textSize="@dimen/textsize_usernametoolbarprofile"
-        android:elevation="@dimen/elevation_circleimageprofile"
-        android:layout_marginLeft="@dimen/marginleft_usernametoolbarprofile"
-        android:layout_marginTop="@dimen/margintop_usernametoolbarprofile"
-        android:gravity="center_vertical"
-        android:textColor="@android:color/white"
-        android:alpha="0"
-        app:dependsOn="@+id/appBarProfile"
-        app:layout_behavior="com.zoonref.SimpleViewBehavior"
-        app:dependType="y"
-        app:dependTargetY="@dimen/limitY_usernametoolbarprofile"
-        app:targetY="@dimen/margintoptargety_usernametoolbarprofile"
-        app:targetAlpha="1"
-        />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

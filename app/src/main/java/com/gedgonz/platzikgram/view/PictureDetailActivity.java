@@ -3,7 +3,9 @@ package com.gedgonz.platzikgram.view;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.transition.Fade;
 import android.view.View;
 
 import com.gedgonz.platzikgram.R;
@@ -17,6 +19,11 @@ public class PictureDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_picture_detail);
 
         showToolbar("",true);
+
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
+        {
+            getWindow().setEnterTransition(new Fade());
+        }
     }
 
     public void showToolbar(String title,boolean upButton)
