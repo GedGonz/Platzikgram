@@ -23,7 +23,7 @@
         <item name="android:textColor">@android:color/white</item>
 
     </style>
-    
+
     <style name="EditTextWhite" parent="TextAppearance.AppCompat">
         <item name="android:textColorHint">@color/ediTextColorWhite</item>
         <item name="android:textSize">@dimen/edittext_textsize_login</item>

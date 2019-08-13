@@ -7,11 +7,10 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 
 import com.gedgonz.platzikgram.R;
-import com.gedgonz.platzikgram.view.fragment.HomeFragment;
+import com.gedgonz.platzikgram.post.view.HomeFragment;
 import com.gedgonz.platzikgram.view.fragment.ProfileFragment;
 import com.gedgonz.platzikgram.view.fragment.SearchFragment;
 import com.roughike.bottombar.BottomBar;
-import com.roughike.bottombar.OnTabReselectListener;
 import com.roughike.bottombar.OnTabSelectListener;
 
 public class ContainerActivity extends AppCompatActivity {
