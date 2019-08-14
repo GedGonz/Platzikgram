@@ -79,7 +79,6 @@
                     android:layout_height="wrap_content"
                     android:text="@string/text_button_login"
                     android:theme="@style/RaisedButtonDark"
-                    android:onClick="LogIn"
                     />
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -106,7 +105,7 @@
                         android:textStyle="bold"
                         android:textSize="@dimen/textsize_donthaveaccount"
                         android:layout_toRightOf="@id/donHaveAccount"
-                        android:onClick="goCreateAccount"
+
                         />
 
                     <ProgressBar

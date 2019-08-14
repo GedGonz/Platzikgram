@@ -86,7 +86,6 @@ public class HomeFragment extends Fragment {
 
             try
             {
-
                 photoFile = createImageFile();
             }
             catch(Exception e)
@@ -94,15 +93,15 @@ public class HomeFragment extends Fragment {
                 e.printStackTrace();
 
             }
+
             if(photoFile!=null)
             {
 
-                Uri photoUri = FileProvider.getUriForFile(getActivity(), "com.gedgonz.platikgram", photoFile);
+                Uri photoUri = FileProvider.getUriForFile(getActivity(), "com.gedgonz.platzikgram", photoFile);
                 intentTakePicture.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
                 startActivityForResult(intentTakePicture, REQUEST_CAMERA);
             }
 
-            ;
         }
     }
 
@@ -124,11 +123,12 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
         if(requestCode == REQUEST_CAMERA  && resultCode == getActivity().RESULT_OK)
         {
             Log.d("HomeFragment","Camera Ok!! :)");
             Intent i = new Intent(getActivity(), NewPostActivity.class);
-            i.putExtra("PHOTO_PATH_TWMPO", photPathTemp);
+            i.putExtra("PHOTO_PATH_TEMP", photPathTemp);
             startActivity(i);
         }
     }

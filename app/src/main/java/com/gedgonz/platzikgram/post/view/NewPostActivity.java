@@ -22,6 +22,8 @@ public class NewPostActivity extends AppCompatActivity {
         {
             String photoPath = getIntent().getExtras().getString("PHOTO_PATH_TEMP");
             Picasso.get().load(photoPath).into(imhPhoto);
+
+
         }
     }
 }
