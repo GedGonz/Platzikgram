@@ -1,8 +1,11 @@
 package com.gedgonz.platzikgram.login.interactor;
 
+import android.app.Activity;
+
 import com.gedgonz.platzikgram.login.presenter.ILoginPresenter;
 import com.gedgonz.platzikgram.login.repository.ILoginRepository;
 import com.gedgonz.platzikgram.login.repository.LoginRepository;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginInteractor implements ILoginInteractor {
 
@@ -16,7 +19,7 @@ public class LoginInteractor implements ILoginInteractor {
     }
 
     @Override
-    public void sigIn(String username, String password) {
-        loginRepository.SignIn(username,password);
+    public void sigIn(String username, String password, Activity activity, FirebaseAuth firebaseAuth) {
+        loginRepository.SignIn(username,password,activity, firebaseAuth);
     }
 }

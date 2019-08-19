@@ -80,6 +80,15 @@
                     android:text="@string/text_button_login"
                     android:theme="@style/RaisedButtonDark"
                     />
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/login_faceboobk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp" />
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -105,7 +114,7 @@
                         android:textStyle="bold"
                         android:textSize="@dimen/textsize_donthaveaccount"
                         android:layout_toRightOf="@id/donHaveAccount"
-
+                        android:onClick="goCreateAccount"
                         />
 
                     <ProgressBar

@@ -11,12 +11,17 @@
 
 
     <application
+        android:name=".PlatzikgramApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
         <provider
             android:authorities="com.gedgonz.platzikgram"
             android:name="androidx.core.content.FileProvider"
@@ -33,11 +38,7 @@
         <activity android:name=".post.view.NewPostActivity"></activity>
         <activity android:name=".view.ContainerActivity" />
         <activity
-            android:name=".ReferenciaActivity"
-            android:label="@string/title_activity_referencia"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".view.CreateAccountActivity"
+            android:name=".login.view.CreateAccountActivity"
             android:parentActivityName=".login.view.LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
